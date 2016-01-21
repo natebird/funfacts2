@@ -11,20 +11,21 @@ import UIKit
 class ViewController: UIViewController {
 
   @IBOutlet weak var funFactLabel: UILabel!
-  let facts = ["Ants stretch when they wake up in the morning", "Ostriches can run faster than horses"]
+  let facts = FactModel().facts
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    funFactLabel.text = facts[0]
+    funFactLabel.text = FactModel().getRandomFact()
   }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
   }
+  
 
   @IBAction func showFunFact() {
-    funFactLabel.text = facts[1]
+    funFactLabel.text = FactModel().getRandomFact()
   }
 
 }
