@@ -15,6 +15,7 @@
 		1F6C3ABB1C444AC000ECD350 /* FunFacts2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C3ABA1C444AC000ECD350 /* FunFacts2Tests.swift */; };
 		1F6C3AC61C444AC000ECD350 /* FunFacts2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C3AC51C444AC000ECD350 /* FunFacts2UITests.swift */; };
 		1FEC8C1B1C51623900FF0EDF /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC8C1A1C51623900FF0EDF /* FactModel.swift */; };
+		1FEC8C1D1C526A5000FF0EDF /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC8C1C1C526A5000FF0EDF /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1F6C3AC51C444AC000ECD350 /* FunFacts2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacts2UITests.swift; sourceTree = "<group>"; };
 		1F6C3AC71C444AC000ECD350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FEC8C1A1C51623900FF0EDF /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		1FEC8C1C1C526A5000FF0EDF /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				1F6C3AAE1C444AC000ECD350 /* LaunchScreen.storyboard */,
 				1F6C3AB11C444AC000ECD350 /* Info.plist */,
 				1FEC8C1A1C51623900FF0EDF /* FactModel.swift */,
+				1FEC8C1C1C526A5000FF0EDF /* ColorModel.swift */,
 			);
 			path = FunFacts2;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				1FEC8C1B1C51623900FF0EDF /* FactModel.swift in Sources */,
 				1F6C3AA81C444AC000ECD350 /* ViewController.swift in Sources */,
 				1F6C3AA61C444AC000ECD350 /* AppDelegate.swift in Sources */,
+				1FEC8C1D1C526A5000FF0EDF /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
