@@ -22,7 +22,7 @@ struct FactModel {
     "Mammoths still walked the Earth when the Great Pyramid was being built." ]
   
   func getRandomFact() -> String {
-    let randomNumber = randomInt(0, max: facts.count)
+    let randomNumber = randomInt(0, max: facts.count - 1)
     return facts[randomNumber]
   }
 
