@@ -18,6 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ln0-1w-HWT">
+                                <rect key="frame" x="36" y="208" width="248" height="64.5"/>
+                                <string key="text">You are born with 300 bones; by the time you are an adult you will have 206. You are born with 300 bones; by the time you are an adult you will have 206.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sbv-lk-D15">
                                 <rect key="frame" x="36" y="360" width="248" height="40"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,11 +44,10 @@
                                     <action selector="showFunFact" destination="BYZ-38-t0r" eventType="touchUpInside" id="ido-Bm-ukh"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ln0-1w-HWT">
-                                <rect key="frame" x="36" y="208" width="248" height="64.5"/>
-                                <string key="text">You are born with 300 bones; by the time you are an adult you will have 206. You are born with 300 bones; by the time you are an adult you will have 206.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Did you know?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bog-Xp-5Ub">
+                                <rect key="frame" x="32" y="66.5" width="117.5" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -54,7 +60,9 @@
                             <constraint firstItem="Sbv-lk-D15" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="OEJ-N5-cz3"/>
                             <constraint firstItem="Sbv-lk-D15" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="OUd-Zd-e6K"/>
                             <constraint firstItem="Ln0-1w-HWT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Qd9-Kf-rub"/>
+                            <constraint firstItem="Bog-Xp-5Ub" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="Tw3-jV-SZg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Sbv-lk-D15" secondAttribute="bottom" constant="80" id="Uhw-Y9-FIa"/>
+                            <constraint firstItem="Ln0-1w-HWT" firstAttribute="top" secondItem="Bog-Xp-5Ub" secondAttribute="bottom" constant="120" id="Z96-uE-aHN"/>
                             <constraint firstItem="Sbv-lk-D15" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="elv-WY-zYV"/>
                             <constraint firstItem="Sbv-lk-D15" firstAttribute="top" secondItem="Ln0-1w-HWT" secondAttribute="bottom" constant="193.5" id="g5v-J2-kkl"/>
                             <constraint firstItem="Ln0-1w-HWT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="h9A-f0-PLE"/>
